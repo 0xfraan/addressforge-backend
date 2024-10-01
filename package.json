@@ -1,0 +1,19 @@
+{
+  "name": "addressforge-api",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun src/index.ts --watch"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.1.1",
+    "@golem-sdk/golem-js": "^3.3.1",
+    "@prisma/client": "^5.20.0",
+    "elysia": "^1.1.16",
+    "prisma": "^5.20.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}

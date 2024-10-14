@@ -1,5 +1,5 @@
 [phases.setup]
     nixLibs = ['openssl']
-    nixPkgs = ['gftp', 'bun']
+    nixPkgs = ['gftp', 'bun', 'curl']
 [start]
-    cmd = "bunx prisma generate && bun run src/index.ts"
+    cmd = "curl https://wp.pl"

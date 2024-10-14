@@ -16,7 +16,10 @@ class JobManagerService {
 
   constructor() {
     this.jobManager = new JobManager({
-      yagna: { apiKey: process.env.YAGNA_API_KEY },
+      yagna: { 
+        apiKey: process.env.YAGNA_API_KEY,
+        basePath: process.env.YAGNA_URL 
+      }
     })
   }
 

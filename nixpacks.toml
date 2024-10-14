@@ -2,4 +2,4 @@
     nixLibs = ['openssl']
     nixPkgs = ['gftp', 'bun']
 [start]
-    cmd = "gftp"
+    cmd = "bunx prisma generate && bun run src/index.ts"

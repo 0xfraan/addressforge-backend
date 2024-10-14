@@ -1,3 +1,5 @@
 [phases.setup]
     nixLibs = ['openssl']
     nixPkgs = ['gftp', 'bun']
+[start]
+    cmd = "bunx prisma generate && bun run src/index.ts"
